@@ -32,7 +32,7 @@ export default function App() {
   return (
     <>
       <Navbar
-        title="Textpad"
+        title="Tried out Textpad"
         mode={mode}
         toggleMode={toggleMode}
         key={new Date()}
@@ -41,7 +41,7 @@ export default function App() {
       <div className="container my-3">
         <TextForm
           showAlert={showAlert}
-          heading="Try Textpad - Enter text to analyze"
+          heading="Enter text to analyze"
           mode={mode}
         />
       </div>
